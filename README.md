@@ -163,7 +163,7 @@ ENTRYPOINT ["java", "-jar", "flight-service.jar"]
 
 ---
 
-```md
+
 ##  start-service.cmd
 
 ```cmd
@@ -180,7 +180,7 @@ java -jar email-service\target\email-service-0.0.1-SNAPSHOT.jar
 
 ---
 
-```md
+
 ## ⚙️ Property Files
 
 - **2 property files maintained**
@@ -223,7 +223,6 @@ flight-service:
 
 ---
 
-```md
 ##  SWOT Analysis – Flight Ticket Booking Application
 
 ###  Strengths

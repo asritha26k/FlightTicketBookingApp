@@ -12,13 +12,13 @@ submitted as part of an assignment.
 - **Backend:**  
   https://github.com/asritha26k/backend-flight-booking-app
 
-  # ✈️ Flight Ticket Booking Application
+  #  Flight Ticket Booking Application
 
 ---
 
 
 
-## 🔐 Password Change Policy
+##  Password Change Policy
 
 ### Change password initiated after every 90 days  
 (Tested with **15 minutes** for validation)
@@ -26,23 +26,23 @@ submitted as part of an assignment.
 
 ---
 
-### ❌ Case: Old password is incorrect
+###  Case: Old password is incorrect
 <img width="837" height="386" alt="image" src="https://github.com/user-attachments/assets/32fa5e52-12fa-4f76-bdf0-79c7cff17c6a" />
 
 ---
 
-### ❌ Case: Old password and New password are similar
+###  Case: Old password and New password are similar
 <img width="846" height="392" alt="image" src="https://github.com/user-attachments/assets/64e72a52-502b-4f63-9e44-c2ca0ac5cacf" />
 
 ---
 
-### ✅ After successful password change
+###  After successful password change
 - User is redirected to **Sign In again**
 <img width="850" height="392" alt="image" src="https://github.com/user-attachments/assets/c379b8a0-5918-4b17-b0ce-5eef764ddd08" />
 
 ---
 
-## 🔁 Manual Change Password Feature if user wishes to change
+##  Manual Change Password Feature if user wishes to change
 ### If user wishes to change password:
 
 - Applicable for **Admin** and **User** roles
@@ -59,7 +59,7 @@ submitted as part of an assignment.
 
 
 
-## 🗄️ Schema Changes
+##  Schema Changes
 
 ### User Class – Newly Added Fields
 
@@ -146,9 +146,9 @@ With the api:
 ## Modal card to delete a flight:
 
 <img width="850" height="380" alt="image" src="https://github.com/user-attachments/assets/9749c833-2f62-463e-9d7b-997272f09fec" />
-## 🐳 Optimized Docker File
+##  Optimized Docker File
 
-### Example: Flight Service
+## Example: Flight Service
 
 ```dockerfile
 FROM eclipse-temurin:17-jdk
@@ -181,22 +181,22 @@ java -jar email-service\target\email-service-0.0.1-SNAPSHOT.jar
 ---
 
 
-## ⚙️ Property Files
+##  Property Files
 
-- **2 property files maintained**
-  - For **Docker**
-  - For **Local**
+- 2 property files maintained**
+  - For Docker
+  - For Local
 <img width="865" height="377" alt="image" src="https://github.com/user-attachments/assets/d7be0d70-bec5-41fe-96a9-0855fd39feed" />
 
 
 
 
 
-## ⚙️ Docker Profile Configuration
+##  Docker Profile Configuration
 
 ### application-docker.properties
 
-- Used specifically for **Docker environment**
+- Used specifically for Docker environment
 - Activated using Spring profile `docker`
 
 ---
